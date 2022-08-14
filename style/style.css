@@ -1,0 +1,230 @@
+/* PAGINAS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(209deg, rgba(255,255,255,1) 0%, rgba(29,253,247,1) 50%, rgba(255,255,255,1) 100%);
+ 
+}
+
+footer{
+    
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: black;
+    padding: auto;
+    border: 10px solid black;
+    margin: auto;
+    position:relative;
+    text-align: center;
+
+}
+
+h2{
+    margin-top: 10px;
+    border: 10px solid black;
+    color:black;
+    position:relative;
+    text-align: center;
+}
+
+h3{
+
+    color:black;
+}
+
+h5{
+    color:black;
+}
+
+p{
+    color:black;
+    
+}
+/*  */
+
+
+.iframeIndex{
+    margin: 10px 0px 10px 25px;
+}
+
+
+section div ol li{
+    
+    background-color:white;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
+        
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.messiGoku{
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+
+}
+
+.logoMessi{
+    width: auto;
+    height: auto;
+}
+
+.sectionLogo{
+    text-align: center;
+}
+
+
+/* RECORDS */
+.p1 {
+    width: 20%;
+    height: 20%;
+    background: red;
+    transition: width 2s;
+    transition:linear
+}
+  
+.p2{
+    width: 20%;
+    height: 20%;
+    background: red;
+    transition: width 2s;
+}
+    
+.p3{
+    width: 20%;
+    height: 20%;
+    background: red;
+    transition: width 2s;
+}
+  
+  .p4{
+    width: 20%;
+    height: 20%;
+    background: red;
+    transition: width 2s;
+    }
+    
+    .p5{
+        width: 20%;
+        height: 20%;
+        background: red;
+        transition: width 2s;
+    }
+    .p6{
+        width: 20%;
+        height: 20%;
+        background: red;
+        transition: width 2s;
+    }
+    .p7{
+        width: 20%;
+        height: 20%;
+        background: red;
+        transition: width 2s;
+    }
+     .p8{
+        width: 20%;
+        height: 20%;
+        background: red;
+        transition: width 2s;
+    }
+  
+  #p1 {transition-timing-function: ease-in-out;}
+  #p2 {transition-timing-function: ease-in-out;}
+  #p3 {transition-timing-function: ease-in-out;}
+  #p4 {transition-timing-function: ease-in-out;}
+  #p5 {transition-timing-function: ease-in-out;}
+  #p6 {transition-timing-function: ease-in-out;}
+  #p7 {transition-timing-function: ease-in-out;}
+  #p8 {transition-timing-function: ease-in-out;}
+  
+.section:hover{
+    width: 300px;
+  }
+
+
+
+
+    /* GALERIA */
+.gridGaleria{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 992px) {
+    .gridGaleria {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gridGaleria {
+        display: grid;
+        grid-template-columns: auto;
+      }
+}
+
+
+
+.h1Galeria{
+    color: black;
+    padding: auto;
+    border: 10px solid black;
+    margin: auto;
+    position:relative;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+/*  */
+.pBox{
+    margin: 10px;
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: white;
+    color: rgb(17, 198, 230);
+}
+
+.sectionFlex{
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-between;
+    height: 300px;
+    margin: 100px;
+}
+/* BARRA NAVEGACION INICIO */
+
+
+/* BARRA NAVEGACION FIN */
+.messiBarca{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 40%, rgba(9,9,121,1) 60%);
+    color: white;
+}
+
+.messiPsg{
+    background: linear-gradient(90deg, rgba(58,64,180,1) 0%, rgba(253,29,29,0) 50%, rgba(222,0,0,1) 100%);
+}
+
+
+
