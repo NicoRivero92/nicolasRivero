@@ -1,0 +1,32 @@
+/* GALERIA */
+.gridRecords {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .gridRecords {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .gridRecords {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+  .h1Galeria {
+    color: black;
+    padding: auto;
+    border: 10px solid black;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  }
