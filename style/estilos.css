@@ -8,41 +8,8 @@ body {
   background: linear-gradient(209deg, rgb(255, 255, 255) 0%, rgb(29, 253, 247) 50%, rgb(255, 255, 255) 100%);
 }
 
-footer {
-  text-align: center;
-}
-
 a {
   text-decoration: none;
-  color: black;
-}
-
-h1 {
-  color: black;
-  padding: auto;
-  border: 10px solid black;
-  margin: auto;
-  position: relative;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 10px;
-  border: 10px solid black;
-  color: black;
-  position: relative;
-  text-align: center;
-}
-
-h3 {
-  color: black;
-}
-
-h5 {
-  color: black;
-}
-
-p {
   color: black;
 }
 
@@ -71,6 +38,31 @@ img {
 }
 
 /* RECORDS */
+header {
+  grid-area: header;
+}
+
+.footerRecords {
+  grid-area: footer;
+  text-align: center;
+}
+
+.envoltura {
+  display: grid;
+  grid-template-areas: "header" "footer";
+  grid-template-columns: 100% auto;
+  grid-template-rows: 4% auto 40%;
+  gap: 8px;
+}
+
+.tituloDerecha {
+  font-size: 30px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .p1 {
   width: 20%;
   height: 20%;
