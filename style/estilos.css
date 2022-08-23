@@ -13,6 +13,10 @@ a {
   color: black;
 }
 
+footer {
+  text-align: center;
+}
+
 /* INDEX */
 .iframeIndex {
   margin: 10px 0px 10px 25px;
@@ -37,118 +41,130 @@ img {
   margin-left: 20%;
 }
 
-/* RECORDS */
-header {
-  grid-area: header;
-}
-
-.footerRecords {
-  grid-area: footer;
+/* INDIVIDUALES */
+.h1Records {
   text-align: center;
 }
 
-.envoltura {
-  display: grid;
-  grid-template-areas: "header" "footer";
-  grid-template-columns: 100% auto;
-  grid-template-rows: 4% auto 40%;
-  gap: 8px;
+.individualesFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.tituloDerecha {
-  font-size: 30px;
-  margin: auto;
-  padding-top: 50px;
+.individualesP1 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.p1 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
-  transition: linear;
+.individualesP2 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
 }
 
-.p2 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.individualesP3 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.individualesP4 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.individualesP5 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.individualesP6 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.individualesP7 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.individualesP8 {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* BARCA */
+.h3Barca {
   text-align: right;
 }
 
-.p3 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.divBarca {
+  display: flex;
+  justify-content: space-between;
 }
 
-.p4 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.trofeosBarca1 {
+  background-color: blue;
+  text-align: center;
+  color: red;
 }
 
-.p5 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.trofeosBarca2 {
+  background-color: red;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: blue;
 }
 
-.p6 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.trofeosBarca3 {
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: red;
 }
 
-.p7 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.trofeosBarca4 {
+  background-color: red;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: blue;
 }
 
-.p8 {
-  width: 20%;
-  height: 20%;
-  transition: width 2s;
+.trofeosBarca5 {
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: red;
 }
 
-#p1 {
-  transition-timing-function: ease-in-out;
+.trofeosBarca6 {
+  background-color: red;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: blue;
 }
 
-#p2 {
-  transition-timing-function: ease-in-out;
-}
-
-#p3 {
-  transition-timing-function: ease-in-out;
-}
-
-#p4 {
-  transition-timing-function: ease-in-out;
-}
-
-#p5 {
-  transition-timing-function: ease-in-out;
-}
-
-#p6 {
-  transition-timing-function: ease-in-out;
-}
-
-#p7 {
-  transition-timing-function: ease-in-out;
-}
-
-#p8 {
-  transition-timing-function: ease-in-out;
-}
-
-.section:hover {
-  width: 300px;
-}
-
+/*PSG*/
 /* GALERIA */
 .gridRecords {
   display: grid;
